@@ -1,0 +1,27 @@
+<html>
+<script type="text/javascript" src="js/three.min.js"></script>
+<script type="text/javascript" src="js/GLTFLoader.js"></script>
+<script type="text/javascript" src="js/orbitcontrols.js"></script>			
+<script type="text/javascript" src="aquariumGame.js"></script>
+<script>
+</script>
+<link rel="stylesheet" href="style.css">
+
+<body>
+<div id= coverAll>
+<canvas id="gl-canvas" width="1500" height="1024">
+Oops ... your browser doesn't support the HTML5 canvas element
+</canvas>
+<table id=under border = "1px">
+<tr>
+<td><div id = startButton class=button>GAME START</div></td>
+<td><div id = divSet><p>Num<input type="range" id="fishNum" name="speed" min="1" max="15"></p>
+<p>Speed<input type="range" id="speed" name="move" min="5" max="20"></p><br></div></td>
+<td><div id = divSize><p style="display:inline">Size: </p><p id=fishSize style="display:inline">0</p></div></td>
+<td><div id = explainButton class=button onClick="location.href='ex.html'">EXPLAIN<div></td>
+</tr>
+</table>
+</div>
+</body>
+</html>  
+

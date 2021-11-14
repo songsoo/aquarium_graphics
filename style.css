@@ -1,0 +1,54 @@
+.button
+{
+	width:200px;
+	height:150px;
+	border:1px solid white;
+	cursor:pointer;
+	background-color:rgba(101,77,165,0.7);
+	padding:5px;
+	text-align:center;
+	line-height:150px;
+	color:white;
+	font-size: 25px;
+	font-weight: bold;
+}
+#coverAll{
+	width:1500px;
+	height:auto;
+	border:3px solid black;
+	background-color:rgba(224,224,224,0.7);
+	padding:10px;
+}
+#button1 { 
+	left: 10px;
+	top: 10px;
+}
+
+#divSet{
+	font-size: 25px;
+	color:white;
+	background-color:rgba(101,77,165,0.7);
+	border: 1px solid white;
+	text-align: center;
+	font-weight: bold;
+	width:300px;
+	height:160px;
+}
+#divSize{
+	float:left;
+	font-size: 25px;
+	color:white;
+	background-color:rgba(101,77,165,0.7);
+	border: 1px solid white;
+	font-weight: bold;
+	width:auto;
+	height:160px;
+	line-height:160px;
+	padding-left:10px;
+	padding-right:10px;
+}
+#fishSize{
+	font-size: 25px;
+	color:white;
+}
+
